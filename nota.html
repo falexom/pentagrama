@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas y Acordes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h2>Selecciona el Tipo, Escala y Nota/Acorde</h2>
+    <div>
+      <label for="escala">Escala:</label>
+      <select id="escala">
+        <option value="sol">Sol</option>
+        <option value="fa">Fa</option>
+      </select>
+    </div>
+    <div>
+      <label for="nota">Nota/Acorde:</label>
+      <select id="nota">
+        <option value="c">Do</option>
+        <option value="d">Re</option>
+        <option value="e">Mi</option>
+        <option value="f">Fa</option>
+        <option value="g">Sol</option>
+        <option value="a">La</option>
+        <option value="b">Si</option>
+      </select>
+    </div>
+    <button id="dibujar">Dibujar</button>
+    <div id="pentagrama"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
